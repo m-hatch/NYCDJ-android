@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ferry_corsten" />
+    
+    <TextView
+        android:id="@+id/txtFerry1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/portrait"
+        android:text="@string/about_ferry"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtFerry2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/portrait"
+        android:layout_marginLeft="10dp"
+        android:text="@string/about_ferry2"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/portrait"
+        android:layout_marginTop="76dp"
+        android:text="@string/listen" />
+
+    <Button
+        android:id="@+id/btnBrowse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnListen"
+        android:layout_marginTop="32dp"
+        android:text="Continue Browsing" />
+
+    <Button
+        android:id="@+id/btnBook1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBrowse1"
+        android:text="Book Now!" />
+
+</RelativeLayout>

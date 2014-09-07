@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nycdj"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.nycdj.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Browse"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/artists_name"></activity>
+        <activity android:name=".Booking"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name"></activity>
+        <activity android:name=".Artist1"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist1"></activity>
+        <activity android:name=".A1_tab1"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist1"></activity>
+        <activity android:name=".A1_tab2"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".Artist2"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist2"></activity>
+        <activity android:name=".A2_tab1"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist2"></activity>
+        <activity android:name=".A2_tab2"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".Artist3"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist3"></activity>
+        <activity android:name=".A3_tab1"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist3"></activity>
+        <activity android:name=".A3_tab2"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".Artist4"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist4"></activity>
+        <activity android:name=".A4_tab1"
+            android:theme="@android:style/Theme.WithActionBar"
+            android:label="@string/title_artist4"></activity>
+        <activity android:name=".A4_tab2"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+    </application>
+</manifest>

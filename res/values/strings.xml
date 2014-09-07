@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NYC DJ</string>
+    <string name="action_settings">Settings</string>
+    <string name="artists_name">Artists</string>
+    <string name="spinner">Select a DJ</string>
+    <string name="home_description">NYC DJ offers the city\'s best DJs. Browse our artists or book a party, wedding, or event. NYC DJ makes it easy with reservation and price quote forms that can get you started today!</string>
+    <string-array name="Artists">
+        <item >Amon Tobin</item>
+        <item >Annie Mac</item>
+        <item >Ferry Corsten</item>
+        <item >Skrillex</item>
+    </string-array>
+    <string name="listen">Listen</string>
+    <string name="title_artist1">Amon Tobin</string>
+    <string name="title_artist2">Annie Mac</string>
+    <string name="title_artist3">Ferry Corsten</string>
+    <string name="title_artist4">Skrillex</string>
+    <string name="about_amon">"Amon Tobin is considered to be one of the most influential electronic music artists in the world. He is noted for his unusual methodology in sound design and music production, and has"</string>
+	<string name="about_amon2">"released seven major studio albums under the London-based Ninja Tune record label."</string>
+    <string name="about_annie">"Annie MacManus, popularly known as Annie Mac, is an Irish DJ and television presenter. She is perhaps best known as the eponymous host of a self-titled electronic dance music show on BBC Radio"</string>
+	<string name="about_annie2">"1 in the United Kingdom, as well as a chill-out music show entitled The Musical Hot Water Bottle on Sunday evenings."</string>
+    <string name="about_ferry">"Ferry Corsten has produced and remixed under many aliases since the release of his first record at the age of sixteen. As a teenager he saved money to buy his first keyboard by washing cars,"</string>
+    <string name="about_ferry2">"and selling mix tapes to kids in his neighbourhood. He now routinely plays at events all over the world with crowds in excess of tens of thousands."</string>
+    <string name="about_skrillex">"Skrillex, is an electronic musician and singer-songwriter who grew up in Northeast Los Angeles and in Northern California. After a period as lead singer for American post-hardcore band From First to Last,"</string>
+    <string name="about_skrillex2">"Skrillex launched a successful solo electronic career in 2007"</string>
+    
+</resources>
