@@ -17,12 +17,12 @@ public class Artist3 extends TabActivity {
 		TabHost tabHost = getTabHost();
 		//first tab
 		TabSpec aboutspec = tabHost.newTabSpec("About");
-		aboutspec.setIndicator("About", getResources().getDrawable(R.drawable.about_icon));
+		aboutspec.setIndicator("", getResources().getDrawable(R.drawable.about_icon));
 		Intent photosIntent = new Intent(this, A3_tab1.class);
 		aboutspec.setContent(photosIntent);
 		//second tab
 		TabSpec webspec = tabHost.newTabSpec("Website");
-		webspec.setIndicator("Website", getResources().getDrawable(R.drawable.web_icon));
+		webspec.setIndicator("", getResources().getDrawable(R.drawable.web_icon));
 		Intent tourIntent = new Intent(this, A3_tab2.class);
 		webspec.setContent(tourIntent);
 		//add TabSpec to TabHost
