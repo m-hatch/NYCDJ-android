@@ -49,7 +49,7 @@
         android:text="Browse" />
 
     <Button
-        android:id="@+id/btnBook"
+        android:id="@+id/btnBook1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btnBrowse"
