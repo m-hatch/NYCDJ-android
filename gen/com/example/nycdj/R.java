@@ -27,38 +27,40 @@ public final class R {
         public static final int about_icon=0x7f020000;
         public static final int amon_tobin=0x7f020001;
         public static final int annie_mac=0x7f020002;
-        public static final int dj_table=0x7f020003;
-        public static final int ferry_corsten=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int ic_launcher_record=0x7f020006;
-        public static final int skrillex=0x7f020007;
-        public static final int web_icon=0x7f020008;
+        public static final int buttongrey=0x7f020003;
+        public static final int dj_table=0x7f020004;
+        public static final int ferry_corsten=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int ic_launcher_record=0x7f020007;
+        public static final int skrillex=0x7f020008;
+        public static final int web_icon=0x7f020009;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0017;
+        public static final int action_settings=0x7f0a0018;
+        public static final int btnBook=0x7f0a0010;
         public static final int btnBook1=0x7f0a0005;
         public static final int btnBrowse=0x7f0a000f;
         public static final int btnBrowse1=0x7f0a0004;
-        public static final int btnDate=0x7f0a0014;
+        public static final int btnDate=0x7f0a0015;
         public static final int btnListen=0x7f0a0003;
-        public static final int btnReserve=0x7f0a0016;
+        public static final int btnReserve=0x7f0a0017;
         public static final int imgDjtable=0x7f0a000d;
         public static final int portrait=0x7f0a0000;
-        public static final int spinDj=0x7f0a0013;
+        public static final int spinDj=0x7f0a0014;
         public static final int txtAmon1=0x7f0a0001;
         public static final int txtAmon2=0x7f0a0002;
         public static final int txtAnnie1=0x7f0a0006;
         public static final int txtAnnie2=0x7f0a0007;
-        public static final int txtBooking=0x7f0a0010;
+        public static final int txtBooking=0x7f0a0011;
         public static final int txtDescription=0x7f0a000e;
         public static final int txtFerry1=0x7f0a0008;
         public static final int txtFerry2=0x7f0a0009;
-        public static final int txtHours=0x7f0a0015;
-        public static final int txtReservation=0x7f0a0012;
+        public static final int txtHours=0x7f0a0016;
+        public static final int txtReservation=0x7f0a0013;
         public static final int txtSkrill1=0x7f0a000a;
         public static final int txtSkrill2=0x7f0a000b;
         public static final int txtTitle=0x7f0a000c;
-        public static final int txtVenue=0x7f0a0011;
+        public static final int txtVenue=0x7f0a0012;
     }
     public static final class layout {
         public static final int a1_tab1=0x7f030000;
